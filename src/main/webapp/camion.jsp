@@ -26,7 +26,7 @@
                     Caminones
                 </li>
             </ul>
-        </nav>
+        </nav>      
         <br> 
         <h2>CAMIONES</h2>
         <br>
@@ -50,7 +50,25 @@
                     <td><a href="CamionControlador?action=delete&id=${item.idCamion}" onclick="return(confirm('Estas seguro de eliminar???????'))">Eliminar</a></td>
                 </tr>
             </c:forEach>
-
         </table>
+        <footer>
+            <br>
+            <div class="container">
+                <p>
+                <table border = 0>
+                    <tr>
+                        <td>Ingeniería de Sistemas</td>
+                        <td>Desarrolado por:</td>
+                        <td><ul>
+                                <li>Nelson Mamani Ramos</li>
+                                <li>Nicol Carla Cochi Muñoz</li>
+                                <li>Noelia Argana Callisaya</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>

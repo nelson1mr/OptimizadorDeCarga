@@ -100,3 +100,29 @@ nav li a {
 nav li a:hover {
   background-color: #111;
 }
+footer {
+  background-color: #ddd; 
+  padding: 20px;
+  text-align: center;  
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;  
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;  
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}

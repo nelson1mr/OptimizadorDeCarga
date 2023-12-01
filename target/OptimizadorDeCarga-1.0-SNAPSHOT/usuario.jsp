@@ -36,5 +36,24 @@
             </c:forEach>
 
         </table>
+                <footer>
+            <br>
+            <div class="container">
+                <p>
+                <table border = 0>
+                    <tr>
+                        <td>Ingeniería de Sistemas</td>
+                        <td>Desarrolado por:</td>
+                        <td><ul>
+                                <li>Nelson Mamani Ramos</li>
+                                <li>Nicol Carla Cochi Muñoz</li>
+                                <li>Noelia Argana Callisaya</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
